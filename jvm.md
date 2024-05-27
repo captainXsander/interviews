@@ -1,0 +1,3 @@
+JVM
+Jit компиляция?
+Класслоадеры: Bootstrap class loader (Загрузчик класса Bootstrap загружает основные библиотеки Java, расположенные в папке <JAVA_HOME>/jre/lib), Extensions class loader (Загрузчик класса расширений загружает код в каталоги расширений (<JAVA_HOME>/jre/lib/ext, или любой другой каталог, указанный системным свойством java.ext.dirs), System class loader (Системный загрузчик классов загружает код, найденный в java.class.path)
